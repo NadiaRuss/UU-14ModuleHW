@@ -6,7 +6,7 @@ const TechStack = () => {
 
     return(
         <section className={style.techStack} id="tech-stack">
-            <h2>Технологии, которые я использую</h2>
+            <h2 className={style.h2}>Технологии, которые я использую</h2>
             <div className={style.grid}>
                 {techStack.technologies.map((tech : Technology) => (
                     <div key={tech.id} className={style.tech}>

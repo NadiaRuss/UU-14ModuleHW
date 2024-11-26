@@ -18,7 +18,7 @@ a {
   max-width: 1200px;
   margin: auto;
 }
-.container{
+.container {
   transition: all 300ms linear;
 }
 
@@ -35,4 +35,10 @@ a {
   filter: invert(100%);
   transition: 300ms linear;
 }
-
+.light #containerTheme{
+  background-color: #363636;
+}
+.dark #containerTheme{
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}

@@ -5,11 +5,11 @@ import { Project } from "../../types";
 const ProjectsStack = () => {
 
     return (
-        <section className={style.projectsStack}>
-            <h2>Мои работы</h2>
+        <section className={style.projectsStack} id="projects">
+            <h2 className={style.h2}>Мои работы</h2>
             <div className={style.grid}>
                 {Projects.projects.map((job : Project) => (
-                    <div key={job.id} className={style.progectStackContainer}>
+                    <div key={job.id} className={style.progectStackContainer} id="containerTheme">
                         <div className={style.imageContainer}>
                         <img src={`${job.image}`} className={style.image} alt={`${job.title} `} />
                         </div>

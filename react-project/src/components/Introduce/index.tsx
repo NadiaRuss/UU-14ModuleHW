@@ -3,7 +3,7 @@ import avatar from "@assets/images/photo.jpg"
 
 const Introdeuce = () =>{
     return (
-        <section className={style.introduce}> 
+        <section className={style.introduce} id="about"> 
                 <div className={style.greeting}>
                     <h1>Привет 👋,</h1>
                         <h2>Меня зовут</h2>

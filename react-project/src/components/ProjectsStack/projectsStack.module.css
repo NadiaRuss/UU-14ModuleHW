@@ -11,16 +11,12 @@
   display: flex;
   min-width: 200px;
   min-height: 200px;
-
 }
 .image {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
-.progectStackContainer {
-  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-}
-.light .progectStackContainer {
-  background-color: #363636;
+.h2 {
+  margin: 10px auto;
+  text-align: center;
 }

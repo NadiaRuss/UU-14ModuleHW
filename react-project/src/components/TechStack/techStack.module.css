@@ -4,6 +4,10 @@
   gap: 30px;
   text-align: center;
 }
+.h2 {
+  margin: 10px auto;
+  text-align: center;
+}
 .techStack {
   margin: 100px auto;
 }
