@@ -7,6 +7,7 @@ const Footer = () => {
         <div className={style.footerContainer}>
 
                 <Nav />
+                <a href='tel:1234567890'>Tel: 1234567890</a>
                 <a href="#UP" className={style.upBtn}>Наверх</a>
 
         </div>

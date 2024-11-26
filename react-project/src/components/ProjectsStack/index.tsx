@@ -29,13 +29,6 @@ const ProjectsStack = () => {
                             rel="noopener noreferrer">
                                 Live Preview
                             </a>
-                            <a 
-                            href={job.codeUrl}
-                            target = "_blank"
-                            rel="noopener noreferrer"
-                            >
-                                View Code
-                            </a>
                         </div>         
                     </div>
                 ))}

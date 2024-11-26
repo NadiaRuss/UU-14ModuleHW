@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "title": "Онлайн магазин одежды, аксессуаров и бытовой техники",
+            "title": "Онлайн магазин одежды",
             "description": "Создан с использованием Fake-API",
             "image": "/src/assets/projects/MyShop.png",
             "techStack": ["HTML", "CSS", "JavaScript"],
