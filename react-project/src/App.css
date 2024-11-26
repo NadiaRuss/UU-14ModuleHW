@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mainContainer {
+  max-width: 1200px;
+  margin: auto;
+}
+.container{
+  transition: all 300ms linear;
+}
+
+.dark {
+  background-color: #ffffff;
+  color: #191919;
+}
+
+.light {
+  background-color: #191919;
+  color: #ffffff;
+}
+.light .other {
+  filter: invert(100%);
+  transition: 300ms linear;
+}
+

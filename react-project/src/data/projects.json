@@ -1,0 +1,41 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Сайт о туризме в горах и за их пределами",
+            "description": "Адаптирован для различных устройств, соответствие с макетом по PerfectPixel",
+            "image": "/src/assets/projects/MNTN.png",
+            "techStack": ["HTML", "CSS", "JavaScript"],
+            "livePreviewUrl": "https://example.com",
+            "codeUrl": "https://github.com"
+        },
+        {
+            "id": 2,
+            "title": "Онлайн магазин одежды, аксессуаров и бытовой техники",
+            "description": "Создан с использованием Fake-API",
+            "image": "/src/assets/projects/MyShop.png",
+            "techStack": ["HTML", "CSS", "JavaScript"],
+            "livePreviewUrl": "https://example.com",
+            "codeUrl": "https://github.com"
+        },
+        {
+            "id": 3,
+            "title": "Блог о творчестве, спорте и образе жизни",
+            "description": "Адаптирован для различных устройств, соответствие с макетом по PerfectPixel",
+            "image": "/src/assets/projects/Noemi.png",
+            "techStack": ["HTML", "CSS", "JavaScript"],
+            "livePreviewUrl": "https://example.com",
+            "codeUrl": "https://github.com"
+        },
+        {
+            "id": 4,
+            "title": "Сайт портфолио",
+            "description": "Использованы технологии React и TypeScript",
+            "image": "/src/assets/projects/Portfolio.png",
+            "techStack": ["HTML", "CSS", "TypeScript", "React" ],
+            "livePreviewUrl": "https://example.com",
+            "codeUrl": "https://github.com"
+        }
+
+    ]
+}

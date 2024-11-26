@@ -1,0 +1,52 @@
+{
+    "technologies": [
+        {
+            "id": 1,
+            "name": "HTML5",
+            "icon": "/src/assets/icons/html5.svg",
+            "class": ""
+        },
+        {
+            "id": 2,
+            "name": "CSS3",
+            "icon": "/src/assets/icons/css3.svg",
+            "class": ""
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "icon": "/src/assets/icons/js.svg",
+            "class": ""
+        },
+        {
+            "id": 4,
+            "name": "GIT",
+            "icon": "/src/assets/icons/git.svg",
+            "class": ""
+        },
+        {
+            "id": 5,
+            "name": "React",
+            "icon": "/src/assets/icons/react.svg",
+            "class": ""
+        },
+        {
+            "id": 6,
+            "name": "Visual Studio Code",
+            "icon": "/src/assets/icons/vscode.svg",
+            "class": ""
+        },
+        {
+            "id": 7,
+            "name": "GitHub",
+            "icon": "/src/assets/icons/github.svg",
+            "class": "other"
+        },
+        {
+            "id": 8,
+            "name": "Figma",
+            "icon": "/src/assets/icons/figma.svg",
+            "class": ""
+        }
+    ]
+}

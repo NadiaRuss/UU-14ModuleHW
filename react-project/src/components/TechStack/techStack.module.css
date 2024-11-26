@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+.techStack {
+  margin: 100px auto;
+}
+.caption {
+  text-align: center;
+}

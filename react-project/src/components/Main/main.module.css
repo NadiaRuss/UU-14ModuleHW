@@ -1,0 +1,10 @@
+.main{
+  margin: 0 10%;
+}
+.main p {
+  padding: 1vw;
+  font-size: 18px;
+}
+.banner {
+  border-radius: 10px;
+}
