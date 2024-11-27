@@ -9,34 +9,67 @@
 }
 .imageContainer {
   display: flex;
-  min-width: 200px;
-  min-height: 200px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
 }
 .image {
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 .h2 {
-  margin: 10px auto;
+  margin: 18px auto;
   text-align: center;
   background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.caption{
+.caption {
   text-align: left;
   padding: 3%;
 }
-.caption p{
-  font-size: 15px;
+.caption p {
+  font-size: 14px;
   margin: 5px auto;
+  min-height: 53px;
 }
-.techStack{
+.caption h3 {
+  min-height: 43px;
+}
+.techStack {
   text-align: left;
   padding: 3%;
 }
-.links{
+.links {
   text-align: right;
   padding: 3%;
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
+.progectStackContainer {
+  border-radius: 20px;
+}
+:global(.light) .progectStackContainer {
+  background-color: #363636;
+}
+:global(.dark) .progectStackContainer {
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* @media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  } */
+/* } */

@@ -35,10 +35,15 @@ a {
   filter: invert(100%);
   transition: 300ms linear;
 }
-.light #containerTheme{
-  background-color: #363636;
+@font-face {
+  font-family: RobotoMedium;
+  src: url('./fonts/Roboto/Roboto-Medium.ttf');
 }
-.dark #containerTheme{
-  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+@font-face {
+  font-family: RobotoBold;
+  src: url('./fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: RobotoThin;
+  src: url('./fonts/Roboto/Roboto-Thin.ttf');
 }

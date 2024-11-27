@@ -23,3 +23,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+@media (max-width: 992px) {
+    .greeting{
+        max-width: 50%;
+    }
+}

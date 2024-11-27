@@ -8,3 +8,11 @@
 .logo {
   max-width: 110px;
 }
+@media (max-width: 768px) {
+  .header{
+     margin: 0 8%;
+  } 
+  .logo {
+    max-width: 90px;
+  }
+ }

@@ -1,7 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
   text-align: center;
 }
 .h2 {
@@ -19,4 +19,36 @@
   text-align: center;
   font-size: 18px;
 }
-
+.tech:hover{
+  animation: flashing 0.3s linear 0.3s forwards;
+  position: relative;
+  left: -3px;
+  top: 4px;
+}
+/* @media (max-width: 1200px) {
+  
+}
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+} */
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
